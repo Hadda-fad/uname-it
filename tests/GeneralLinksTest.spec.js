@@ -4,7 +4,7 @@ import { test, expect } from '@playwright/test';
 //Playwright by default runs in headless mode
 //To run tests, run the following in terminal: npx playwright test 
 //To run tests in head-mode, run the following in terminal: npx playwright test --headed
-//Or in config file place >>> headless : false
+//or in config file place >>> headless : false
 //test.only to run a specific test in isolation 
 
 

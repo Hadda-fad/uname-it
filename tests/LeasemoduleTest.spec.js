@@ -1,5 +1,9 @@
 import { test, expect } from '@playwright/test';
 
+
+// --- TESTS ---
+//npx playwright test "tests/LeasemoduleTest.spec.js"
+
 //Testing the Lease module solution 
 test('Lease module solution ', async ({page})=> 
 {

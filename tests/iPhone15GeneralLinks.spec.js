@@ -1,23 +1,14 @@
-import { test, expect } from '@playwright/test';
-
-// iPhone 15 approximate specs
-const iPhone15 = {
-  name: 'iPhone 15',
-  viewport: { width: 430, height: 932 },  // approximate logical pixels
-  deviceScaleFactor: 3,
-  isMobile: true,
-  hasTouch: true,
-  userAgent:
-    'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1'
-};
+import { test, devices, expect } from '@playwright/test';
 
 // Apply iPhone 15 settings to all tests
-test.use({ ...iPhone15 });
+test.use(devices['iPhone 15 Pro']);
 
 // --- TESTS ---
 //npx playwright test "tests/iPhone15GeneralLinks.spec.js"
 
 //trace.playwright.dev 
+
+//Web responsive testing 
 
 test('WAT BIEDEN WIJ', async ({ page }) => {    
   await page.goto('https://www.uname-it.com/');

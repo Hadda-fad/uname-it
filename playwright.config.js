@@ -19,6 +19,8 @@ const config = ({
   headless : false,
   screenshot : 'on', 
   trace: 'on'
+  //...devices['']
+  
 
     
  

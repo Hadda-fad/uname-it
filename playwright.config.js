@@ -18,8 +18,10 @@ const config = ({
   browserName: 'chromium',
   headless : false,
   screenshot : 'on', 
-  trace: 'on'
+  trace: 'on',
   //...devices['']
+  //viewport : {width:720,height:720}
+  //video: 'on'
   
 
     

@@ -4,11 +4,16 @@ import { test, expect } from '@playwright/test';
 // --- TESTS ---
 //npx playwright test "tests/LeasemoduleTest.spec.js"
 
+//trace.playwright.dev 
+
+
+
 //Testing the Lease module solution 
 test('Lease module solution ', async ({page})=> 
 {
     //navigates to the lease module
     await page.goto("https://www.uname-it.com/");
+    //await page.pause();
     await page.locator("text='Alle oplossingen'").first().click();
     await page.locator('.dropdown-menu >> text=Websites').first().click();
     await page.locator(".item-title >> text='UnameIT Lease module'").click();

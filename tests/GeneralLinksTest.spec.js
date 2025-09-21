@@ -7,6 +7,10 @@ import { test, expect } from '@playwright/test';
 //or in config file place >>> headless : false
 //test.only to run a specific test in isolation 
 
+// --- TESTS ---
+//npx playwright test "tests/GeneralLinksTest.spec.js"
+
+//trace.playwright.dev 
 
 //Testing the "WAT BIEDEN WIJ" link on the homepage 
 test('WAT BIEDEN WIJ-test', async ({page})=> 

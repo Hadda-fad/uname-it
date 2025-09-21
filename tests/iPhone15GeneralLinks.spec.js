@@ -17,6 +17,8 @@ test.use({ ...iPhone15 });
 // --- TESTS ---
 //npx playwright test "tests/iPhone15GeneralLinks.spec.js"
 
+//trace.playwright.dev 
+
 test('WAT BIEDEN WIJ', async ({ page }) => {    
   await page.goto('https://www.uname-it.com/');
   await page.locator('.btn-icon--menu').click();

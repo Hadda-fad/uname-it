@@ -7,8 +7,17 @@ import { test, expect } from '@playwright/test';
 //or in config file place >>> headless : false
 //test.only to run a specific test in isolation 
 
+//localhost:8080
+//Haddafad
+//rEyr!cZ7jenkins
+
 // --- TESTS ---
 //npx playwright test "tests/GeneralLinksTest.spec.js"
+
+//To generate allure reporting: 
+//npx playwright test "tests/GeneralLinksTest.spec.js" --reporter=line,allure-playwright
+//allure generate ./allure-results --clean
+//allure open ./allure-report
 
 //trace.playwright.dev 
 

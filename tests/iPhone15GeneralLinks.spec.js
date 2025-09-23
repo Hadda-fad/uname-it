@@ -10,7 +10,7 @@ test.use(devices['iPhone 15 Pro']);
 
 //Web responsive testing 
 
-test.only('WAT BIEDEN WIJ', async ({ page }) => {    
+test('WAT BIEDEN WIJ', async ({ page }) => {    
   await page.goto('https://www.uname-it.com/');
   await page.locator('.btn-icon--menu').click();
   await page.locator('li').getByText('Wat bieden wij').click();
